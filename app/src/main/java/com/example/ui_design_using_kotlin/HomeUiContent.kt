@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.CircleShape
@@ -97,7 +96,7 @@ fun buttons(
 }
 
 @Composable
-fun showData(data:List<Data.Demo>){
+fun showData(data: Data.Demo){
     Card(
         shape = RoundedCornerShape(5.dp),
         modifier = Modifier
